@@ -1,0 +1,17 @@
+Paragraph: 7
+Problem: Role of underscores
+Our solution: We are assuming that the '_' symbol is used for readability purposes, and can solely appear in integers, floats and rationals
+
+Paragraph: 7
+Problem: type definition of rationals
+Our solution: We are assuming rationals cannot be written using a negative number in the denominator - this is to avoid the occurence
+of successive '/' and '-' symbols
+
+Paragraph: 8
+Problem: We identified in the example dict in the specifications a nested dict that was not assigned a key/value as in key:value
+Our solution: We decided to assume this is an error, and forced the key:value format to be applied. Nested dicts are still
+              allowed.
+
+Paragraph: 5
+Problem: usage of " ' " or " ’ "
+Our solution: We decided to switch the character used in pdf ( ’ ) with the single quote character: ( ' ), in lexer definition of character
